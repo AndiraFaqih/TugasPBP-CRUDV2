@@ -13,9 +13,9 @@
     <string name="row1Isikode">A202</string>
     <string name="row1Isigedung">E</string>
     <string name="nama_ruang">Nama Ruang:</string>
-    <string name="kapasitas_ruang">Kapasitas Ruang</string>
-    <string name="kode_ruang">Kode Ruang</string>
-    <string name="gedung">Gedung</string>
+    <string name="kapasitas_ruang">Kapasitas Ruang:</string>
+    <string name="kode_ruang">Kode Ruang:</string>
+    <string name="gedung">Gedung:</string>
     <string name="submit">Submit</string>
     <string name="form">Form</string>
     <string name="list">List</string>
