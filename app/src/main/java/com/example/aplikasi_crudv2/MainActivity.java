@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.database.Cursor;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
     Ruangan room4 = new Ruangan("Ruang Rapat", "B101");
     Ruangan room5 = new Ruangan("Ruang Kelas", "D106");
     Ruangan room6 = new Ruangan("Ruang Kelas", "D108");
+
+    DataHelper dbcenter;
+    protected Cursor cursor;
+    public MainActivity ma;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
