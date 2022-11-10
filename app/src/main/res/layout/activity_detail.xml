@@ -28,16 +28,17 @@
 
         <TableRow>
             <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/row1Nama"
-                    android:textColor="@android:color/black"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"/>
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Nama"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
 
             <TextView
+                android:id="@+id/nama_r"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/row1IsiNama"
@@ -61,6 +62,7 @@
                 android:gravity="center_horizontal"/>
 
             <TextView
+                android:id="@+id/kap"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/row1Isikapasitas"
@@ -83,6 +85,7 @@
                 android:gravity="center_horizontal"/>
 
             <TextView
+                android:id="@+id/kod"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/row1Isikode"
@@ -106,6 +109,7 @@
                 android:gravity="center_horizontal"/>
 
             <TextView
+                android:id="@+id/ged"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/row1Isigedung"
@@ -115,5 +119,5 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"/>
         </TableRow>
-        </TableLayout>
+    </TableLayout>
 </RelativeLayout>
