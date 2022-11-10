@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">APLIKASI-CRUDV2</string>
+    <string name="nama_ruang">Nama Ruang:</string>
+    <string name="kapasitas_ruang">Kapasitas Ruang</string>
+    <string name="kode_ruang">Kode Ruang</string>
+    <string name="gedung">Gedung</string>
+    <string name="submit">Submit</string>
+    <string name="form">Form</string>
+    <string name="list">List</string>
 </resources>
