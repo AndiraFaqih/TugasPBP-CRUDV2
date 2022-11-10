@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     List<Ruangan> listRuangan;
     Ruangan room1 = new Ruangan("Laboratorium", "A101");
     Ruangan room2 = new Ruangan("Ruang Dosen", "D102");
+    Ruangan room3 = new Ruangan("Ruang Kelas", "D104");
+    Ruangan room4 = new Ruangan("Ruang Rapat", "B101");
+    Ruangan room5 = new Ruangan("Ruang Kelas", "D106");
+    Ruangan room6 = new Ruangan("Ruang Kelas", "D108");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
         // masukkin data dummy
         listRuangan.add(room1);
         listRuangan.add(room2);
+        listRuangan.add(room3);
+        listRuangan.add(room4);
+        listRuangan.add(room5);
+        listRuangan.add(room6);
 
 
         linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
