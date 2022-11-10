@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">APLIKASI-CRUDV2</string>
+    <string name="textview">TextView</string>
+    <string name="col1">Detail</string>
+    <string name="col2">Nama</string>
+    <string name="col3">Nama</string>
+    <string name="row1Nama">Nama</string>
+    <string name="row1kapasitas">Kapasitas</string>
+    <string name="row1kode">Kode</string>
+    <string name="row1gedung">Gedung</string>
+    <string name="row1IsiNama">Laboratorium</string>
+    <string name="row1Isikapasitas">40</string>
+    <string name="row1Isikode">A202</string>
+    <string name="row1Isigedung">E</string>
     <string name="nama_ruang">Nama Ruang:</string>
     <string name="kapasitas_ruang">Kapasitas Ruang</string>
     <string name="kode_ruang">Kode Ruang</string>
