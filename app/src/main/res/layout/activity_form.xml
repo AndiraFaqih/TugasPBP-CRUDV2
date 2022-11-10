@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".FormActivity">
+
+
+    <TextView
+        android:id="@+id/tv_nama_ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_ruang"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_nama_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:text="Nama Ruang"/>
+
+    <TextView
+        android:id="@+id/tv_kapasitas_ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kapasitas_ruang"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_kapasitas_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/tv_kode_ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kode_ruang"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_kode_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:text="Kode Ruang"/>
+
+    <TextView
+        android:id="@+id/tv_gedung_ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gedung"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_gedung_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:text="Nama Gedung"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="@string/submit"/>
+
+
+</LinearLayout>
